@@ -1,18 +1,19 @@
 
 public class Main {
     public static void main(String[] args) {
-        int isiGelas = 0;
-        int penuh = 225;
+        int nilaiArr[] = {40,55,63,17,22,68,89,97,89};
+        System.out.println(nilaiArr.length);
+        System.out.println(nilaiArr[0]);
+        System.out.println(nilaiArr[8]);
 
-        System.out.println("Isi Gelas Sekarang : " + isiGelas + "m1");
-        System.out.println("Isi Gelas Ketika Penuh : " + penuh + "m1");
-
-        for(isiGelas = 0 ; isiGelas <= penuh ; isiGelas++) {
-            System.out.println("Sedang mengisi gelas..");
-            System.out.println("Isi Gelap Sekrang : " + isiGelas + "m1");
+        String mataKuliah[];
+        mataKuliah = new String(10);
+        //indeks dimulai dari 0 maka array dengan ukuran 10 (0-9)
+        mataKuliah[0] = "Pemrograman Berbasis Objek 1";
+        mataKuliah[1] = "Visual 2";
+        mataKuliah[2] = "Rekayasa Perangkat Lunak";
+        mataKuliah[3] = "Organisasi Komputer";
+        mataKuliah[4] = "Pemrograman Web 2";
         }
 
-        System.out.println("Finale: Isi Gelas Sekarang : " + isiGelas + "m1");
-
-        }
     }
